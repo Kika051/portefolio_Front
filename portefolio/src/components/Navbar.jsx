@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
+    <div className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
       <div className="logo">
         <img src={logo} alt="Logo" />
       </div>
@@ -82,7 +82,7 @@ function Navbar() {
       <button className="navbar_burger" onClick={handleShowLinks}>
         <span className="burger-bar"></span>
       </button>
-    </nav>
+    </div>
   );
 }
 

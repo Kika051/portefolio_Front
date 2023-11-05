@@ -8,7 +8,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto";
+  color: #ffffff;
 }
+
 /* NAVBAR*/
 img {
   height: 100x;
@@ -20,7 +22,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
+  top: 0;
   width: 100%;
   min-height: 75px;
   padding: 1rem;
@@ -34,6 +36,7 @@ ul {
 .navbar_links {
   display: flex;
 }
+
 @media (min-width: 769px) {
   .navbar_link {
     padding: 0 0.5rem;
