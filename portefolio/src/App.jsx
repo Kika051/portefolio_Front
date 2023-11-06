@@ -13,7 +13,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      <h1>hello from world </h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
