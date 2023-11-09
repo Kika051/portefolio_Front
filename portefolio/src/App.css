@@ -78,6 +78,52 @@ ul {
   width: 5rem;
   height: 5rem;
 }
+.techno-container {
+  display: flex;
+  border-top: 2px solid gray;
+}
+
+.technos {
+  margin: 2rem;
+  color: silver;
+}
+
+.express {
+  height: 5rem;
+  width: 100%;
+}
+/* SERVICES-PAGE*/
+.role {
+  color: silver;
+  font-family: "Roboto_bold";
+}
+.headservices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.question {
+  margin-left: 3rem;
+  color: silver;
+  font-size: large;
+}
+.service-container {
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  background-color: rgb(143, 143, 143);
+  text-align: center;
+  margin: 1rem;
+  height: 20rem;
+  width: 15rem;
+  padding: 1rem;
+}
 
 @media (min-width: 769px) {
   .navbar_link {

@@ -1,8 +1,14 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import Compétent from "../image/Compétent.png";
 import créatif from "../image/créatif.png";
 import Fiable from "../image/Fiable.png";
 import FR from "../image/FR.png";
+import CSS from "../image/CSS.png";
+import Expressjs from "../image/Expressjs.png";
+import js from "../image/js.png";
+import node from "../image/node.png";
+import react from "../image/react.png";
 
 function Home() {
   const [showDescrib, setShowDescrib] = useState(false);
@@ -89,6 +95,28 @@ function Home() {
               <h3 className="atout">Full Remote</h3>
             </div>
           )}
+        </div>
+      </div>
+      <div className="techno-container">
+        <div className="technos">
+          <img src={react} alt="compétent" className="logoatout" />
+          <h2 className="techno">React</h2>
+        </div>
+        <div className="technos">
+          <img src={js} alt="compétent" className="logoatout" />
+          <h2 className="techno">Javascript</h2>
+        </div>
+        <div className="technos">
+          <img src={CSS} alt="compétent" className="logoatout" />
+          <h2 className="techno">CSS</h2>
+        </div>
+        <div className="technos">
+          <img src={Expressjs} alt="compétent" className="express" />
+          <h2 className="techno">Express</h2>
+        </div>
+        <div className="technos">
+          <img src={node} alt="compétent" className="logoatout" />
+          <h2 className="techno">Node.js</h2>
         </div>
       </div>
     </div>
