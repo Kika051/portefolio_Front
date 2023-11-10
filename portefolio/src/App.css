@@ -158,6 +158,71 @@ ul {
   font-size: 1.5em;
 }
 
+/* COMPETENCES-PAGE*/
+.competence-pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* ArbreCompetences.css */
+.title-adc {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  border-top: 2px solid gray;
+  width: 70%;
+}
+.arbre-competences {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.specialite {
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 30%;
+  text-align: center;
+}
+
+.design {
+  background-color: #ffcccb; /* Couleur de fond pour le Design */
+}
+
+.frontend {
+  background-color: #a4c2f4; /* Couleur de fond pour le Frontend */
+}
+
+.backend {
+  background-color: #ffb366; /* Couleur de fond pour le Backend */
+}
+
+.base-donnees {
+  background-color: #b3d89c; /* Couleur de fond pour la Base de données */
+}
+
+.gestion-version {
+  background-color: #d0b3e1; /* Couleur de fond pour la Gestion de Version */
+}
+
+.specialite h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
 @media (min-width: 769px) {
   .navbar_link {
     padding: 0 0.5rem;
