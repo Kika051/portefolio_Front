@@ -125,6 +125,39 @@ ul {
   padding: 1rem;
 }
 
+/* TARIFS-PAGE*/
+.tarifpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.tarifslogan {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 80%;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  color: #000;
+}
+.tarif {
+  background-color: rgb(143, 143, 143);
+  width: 60%;
+  padding: 1rem;
+  font-family: "Roboto_bold";
+}
+.tjmcontainer {
+  background-color: rgb(143, 143, 143);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.montant {
+  font-size: 1.5em;
+}
+
 @media (min-width: 769px) {
   .navbar_link {
     padding: 0 0.5rem;

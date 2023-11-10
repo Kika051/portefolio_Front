@@ -6,7 +6,6 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Competences from "./pages/Compétences";
 import Tarifs from "./pages/Tarifs";
-import Avis from "./pages/Avis";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/competences" element={<Competences />} />
         <Route path="/tarifs" element={<Tarifs />} />
-        <Route path="/avis" element={<Avis />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

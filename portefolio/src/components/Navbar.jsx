@@ -62,15 +62,6 @@ function Navbar() {
         </li>
         <li className="navbar_item">
           <Link
-            to="/avis"
-            className="navbar_link"
-            style={{ textDecoration: "none", color: "Black" }}
-          >
-            Avis
-          </Link>
-        </li>
-        <li className="navbar_item">
-          <Link
             to="/contact"
             className="navbar_link"
             style={{ textDecoration: "none", color: "Black" }}
