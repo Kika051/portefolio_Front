@@ -215,12 +215,31 @@ ul {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
+  text-align: center; /* Centrer le contenu sur la largeur de la div */
 }
 
 li {
-  margin: 5px 0;
+  display: inline-block;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+}
+
+.logocomp {
+  display: block;
+  margin: 0 auto; /* Centre l'image horizontalement à l'intérieur du li */
+  margin-bottom: 5px;
+  width: 75px;
+  height: 75px;
+}
+.logocompex {
+  display: block;
+  margin: 0 auto; /* Centre l'image horizontalement à l'intérieur du li */
+  margin-bottom: 5px;
+  width: 150px;
+  height: 75px;
 }
 
 @media (min-width: 769px) {
