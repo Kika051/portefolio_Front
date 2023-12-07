@@ -52,8 +52,8 @@ ul {
 .slogan {
   font-family: "Roboto_bold";
   font-size: 40px;
-  margin-top: 7rem; /* Ajustez cette valeur selon votre préférence pour l'espace au-dessus du slogan */
-  margin-bottom: 2rem; /* Ajoutez cette marge inférieure pour l'espace entre le slogan et le paragraphe */
+  margin-top: 7rem;
+  margin-bottom: 2rem;
   color: silver;
 }
 .atouts {
@@ -166,7 +166,7 @@ ul {
   justify-content: center;
   text-align: center;
 }
-/* ArbreCompetences.css */
+/* ArbreCompetences */
 .title-adc {
   display: flex;
   text-align: center;
@@ -191,23 +191,23 @@ ul {
 }
 
 .design {
-  background-color: #ffcccb; /* Couleur de fond pour le Design */
+  background-color: #ffcccb;
 }
 
 .frontend {
-  background-color: #a4c2f4; /* Couleur de fond pour le Frontend */
+  background-color: #a4c2f4;
 }
 
 .backend {
-  background-color: #ffb366; /* Couleur de fond pour le Backend */
+  background-color: #ffb366;
 }
 
 .base-donnees {
-  background-color: #b3d89c; /* Couleur de fond pour la Base de données */
+  background-color: #b3d89c;
 }
 
 .gestion-version {
-  background-color: #d0b3e1; /* Couleur de fond pour la Gestion de Version */
+  background-color: #d0b3e1;
 }
 
 .specialite h2 {
@@ -217,7 +217,7 @@ ul {
 ul {
   list-style: none;
   padding: 0;
-  text-align: center; /* Centrer le contenu sur la largeur de la div */
+  text-align: center;
 }
 
 li {
@@ -229,17 +229,57 @@ li {
 
 .logocomp {
   display: block;
-  margin: 0 auto; /* Centre l'image horizontalement à l'intérieur du li */
+  margin: 0 auto;
   margin-bottom: 5px;
   width: 75px;
   height: 75px;
 }
 .logocompex {
   display: block;
-  margin: 0 auto; /* Centre l'image horizontalement à l'intérieur du li */
+  margin: 0 auto;
   margin-bottom: 5px;
   width: 150px;
   height: 75px;
+}
+/* PORTFOLIO-PAGE */
+.portfoliopage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar_project {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ajout pour centrer les éléments horizontalement */
+}
+
+.project {
+  padding: 1rem;
+  width: 75%; /* Ajusté à 75% pour que le projet ne soit pas trop large */
+  background-color: #333;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+  justify-content: center;
+  text-align: center; /* Ajout pour centrer le texte à l'intérieur du projet */
+}
+
+.image-project {
+  width: 50%;
+}
+
+.description {
+  max-width: 75%;
+  margin: auto; /* Ajout pour centrer la description horizontalement */
 }
 
 @media (min-width: 769px) {

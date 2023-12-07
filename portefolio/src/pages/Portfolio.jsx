@@ -1,7 +1,8 @@
+import Allproject from "./Allproject";
 function Portfolio() {
   return (
-    <div className="page">
-      <h1>Hello from Portfolio</h1>
+    <div className="portfoliopage">
+      <Allproject />
     </div>
   );
 }
