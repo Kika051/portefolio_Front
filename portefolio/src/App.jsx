@@ -10,6 +10,9 @@ import Contact from "./pages/Contact";
 import Customerprojects from "./pages/Customerprojects";
 import Allproject from "./pages/Allproject";
 import Personalprojects from "./pages/Personalprojects";
+import OriginsDigital from "./components/OriginsDigital";
+import WildBeer from "./components/WildBeer";
+import WildClicker from "./components/WildClicker";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
         <Route path="/allprojects" element={<Allproject />} />
         <Route path="/personalprojects" element={<Personalprojects />} />
         <Route path="/customerprojects" element={<Customerprojects />} />
+        <Route path="/originsdigital" element={<OriginsDigital />} />
+        <Route path="/wildbeer" element={<WildBeer />} />
+        <Route path="/wildclicker" element={<WildClicker />} />
       </Routes>
     </div>
   );
