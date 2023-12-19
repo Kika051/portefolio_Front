@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import WB1 from "../image/wild_beer/WB1.png";
 import WB2 from "../image/wild_beer/WB2.png";
 import WB3 from "../image/wild_beer/WB3.png";
@@ -23,11 +24,12 @@ const WildBeer = () => {
       miniature8: WBmobile2,
       miniature9: WBmobile3,
       title: "Wild Beer",
-      mission: "Wild beer",
+      mission:
+        "La Wild Code School a demandé la création d'un jeu de cartes novateur utilisant une API spécifique pour générer des cartes créatives. Le jeu se déroulera en cinq manches avec des duels entre les cartes des joueurs et une IA. La mission implique l'implémentation d'algorithmes techniques pour appliquer précisément les règles spécifiques du jeu, assurant une expérience stratégique et captivante.",
       nature: "Projet client, en équipe",
       ddl: "Avril 2023 / Mai 2023",
       stack: "React, Express",
-      link: "",
+      link: "https://wildbeerproject2.netlify.app/",
     },
   ];
 
@@ -99,6 +101,19 @@ const WildBeer = () => {
             <h3 className="details">Stack utilisé : </h3>
             <p className="project-details">{project.stack}</p>
           </div>
+          <Link
+            to={project.link}
+            style={{
+              display: "inline-block",
+              backgroundColor: "black",
+              color: "white",
+              padding: "10px 15px",
+              textDecoration: "none",
+              borderRadius: "5px",
+            }}
+          >
+            Accedez au projet
+          </Link>
         </div>
       ))}
     </div>

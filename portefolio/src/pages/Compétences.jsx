@@ -14,8 +14,7 @@ import git from "../image/git.png";
 import github from "../image/github.png";
 
 function Competences() {
-  const lienPDF =
-    "https://www.cjoint.com/doc/23_11/MKku5luQOtM_CV-Cdi-Freelance.pdf";
+  const lienPDF = "https://www.cjoint.com/doc/23_12/MLtqKlRIwUa_CV-dev.pdf";
   return (
     <div className="competence-pages">
       <h2>

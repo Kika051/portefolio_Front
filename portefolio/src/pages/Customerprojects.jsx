@@ -45,7 +45,19 @@ function Customerprojects() {
             />
             <h2 className="projet-titre">{project.title}</h2>
             <p className="description">{project.description}</p>
-            <Link to={project.link}>Voir le projet</Link>
+            <Link
+              to={project.link}
+              style={{
+                display: "inline-block",
+                backgroundColor: "black",
+                color: "white",
+                padding: "10px 15px", // Ajustez selon vos préférences
+                textDecoration: "none",
+                borderRadius: "5px", // Pour arrondir les coins si nécessaire
+              }}
+            >
+              Voir le projet
+            </Link>
           </div>
         ))}
       </div>

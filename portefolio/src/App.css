@@ -322,6 +322,70 @@ li {
   width: 50%;
 }
 
+/* Contact-PAGE */
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  margin: 0.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+form input {
+  box-sizing: border-box;
+  width: 200%;
+}
+
+form textarea {
+  box-sizing: border-box;
+  width: 400%;
+  height: 10rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.thanking {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 25%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
+}
+.mail {
+  width: 25%;
+}
+
+.para-contact {
+  max-width: 51%;
+  text-align: center;
+}
+
+.linkedin-link {
+  color: white; /* Couleur du texte en blanc */
+  text-decoration: underline; /* Soulignement */
+}
+
+.drop-form {
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
 @media (min-width: 769px) {
   .navbar_link {
     padding: 0 0.5rem;

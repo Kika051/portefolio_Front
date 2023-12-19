@@ -24,7 +24,7 @@ const OriginsDigital = () => {
       miniature9: ODmobile,
       title: "Origins Digital",
       mission:
-        "Wild Clicker, un jeu de clicker créé pour la Wild Code School,s'inspire du concept de Cookie Clicker. Le jeu met en avant une expérience de clic engageante, accompagnée de quatre bonus automatisés pour faciliter l'accumulation de clics. Ces bonus, représentés par les développeurs, les PCs, le terminal et JavaScript, ajoutent une dimension stratégique au gameplay. Les joueurs peuvent explorer un monde numérique tout en cliquant pour obtenir des ressources, et les bonus automatisés offrent des avantages uniques pour optimiser la productivité. Wild Clicker, conçu dans le cadre de ma formation à la Wild Code School, reflète ma passion pour le développement de jeux et l'application pratique des compétences acquises.",
+        "Origins Digitale avait exprimé le besoin de créer une plateforme de vidéos sportives courtes en modèle freemium. La mission comprenait la mise en place d'une base de données, permettant à l'administrateur d'ajouter, de modifier et de supprimer des vidéos, tout en gérant les utilisateurs, les vidéos et les catégories. L'objectif était d'offrir une expérience fluide et intuitive sur la plateforme.",
       nature: "Projet client, en équipe",
       ddl: "Mai 2023 / Juillet 2023",
       stack: "React, Express, Mysql",
